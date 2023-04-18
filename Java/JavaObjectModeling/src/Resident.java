@@ -17,7 +17,7 @@ public class Resident extends Person {
         utensil.turnOnCooktop();
         utensil.turnOnWater();
 
-        Bedroom bedroom = new Bedroom("침실");
+        Bedroom bedroom = new Bedroom("침실", 1);
         bedroom.useBedroom();
         Bed bed = new Bed("Queen", "Black");
         bed.lieOnTheBed();
