@@ -6,7 +6,7 @@ public class Resident extends Person {
     }
 
     @Override
-    public void pay(String name, String sex, int age) { //메소드 오버라이딩
+    public void pay(String name, String sex, int age) { //메소드 오버라이딩 - 부모와 시그니처(리턴 타입, 메소드 이름, 매개변수 리스트) 같음
         System.out.println(name + "(" + sex + ", " + age + ")이(가) " + bankAccount + "으로 관리비를 납부했습니다.");
     }
 
