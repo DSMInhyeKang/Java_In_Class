@@ -9,5 +9,15 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         int input = scan.nextInt();
         System.out.println(input);
+
+        //인터페이스 구현 - 자동 타입 변환
+        InterF interF = new InterFClass();
+
+        InterF interF1 = new InterF() {
+            @Override
+            public void method() {
+                System.out.println("익명 구현 객체");
+            }
+        };
     }
 }
